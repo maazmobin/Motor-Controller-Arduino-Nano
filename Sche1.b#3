@@ -234,6 +234,9 @@ Controller</text>
 <text x="25.4" y="7.2025" size="1.4224" layer="25" font="vector" ratio="17" rot="SR0" align="center">Nano
 328p
 USB</text>
+<text x="45.085" y="4.6625" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v1</text>
+<text x="42.545" y="47.2075" size="1.4224" layer="25" font="vector" ratio="17" rot="SR0" align="center">MM
+ZP</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor-2016">

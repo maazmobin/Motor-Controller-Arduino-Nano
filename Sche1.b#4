@@ -174,8 +174,6 @@
 <text x="12.2625" y="18.08" size="1.016" layer="25" font="vector" ratio="10" rot="R180">6</text>
 <text x="9.7225" y="18.08" size="1.016" layer="25" font="vector" ratio="10" rot="R180">7</text>
 <text x="7.5" y="18.08" size="1.016" layer="25" font="vector" ratio="10" rot="R180">9</text>
-<text x="41.4725" y="4.365" size="1.016" layer="25" font="vector" ratio="10">5V</text>
-<text x="44.0275" y="4.46" size="1.016" layer="25" font="vector" ratio="10">GND</text>
 <text x="13.215" y="25.47" size="1.016" layer="25" font="vector" ratio="10" rot="R180">3V3</text>
 <text x="9.7225" y="25.47" size="1.016" layer="25" font="vector" ratio="10" rot="R180">5</text>
 <text x="7.1825" y="25.47" size="1.016" layer="25" font="vector" ratio="10" rot="R180">3</text>
@@ -219,11 +217,11 @@
 <text x="13.17" y="40.475" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">GND RX TX 5V</text>
 <text x="4.325" y="11.095" size="1.016" layer="25" font="vector" ratio="10" rot="R180">GND</text>
 <text x="7.5" y="11.8175" size="1.016" layer="25" font="vector" ratio="10" rot="R180">~</text>
-<text x="10.4775" y="2.44" size="1.9304" layer="25" font="vector" ratio="17" rot="SR0" align="center">Musafir</text>
+<text x="10.4775" y="3.075" size="1.9304" layer="25" font="vector" ratio="17" rot="SR0" align="center">Musafir</text>
 <text x="49.235" y="31.56" size="1.778" layer="26" font="vector" ratio="12" rot="MR270">ejaadtech.com</text>
-<text x="40.9575" y="2.7575" size="1.27" layer="25" font="vector" ratio="17" rot="SR0" align="center">Motor
+<text x="40.9575" y="3.3925" size="1.27" layer="25" font="vector" ratio="17" rot="SR0" align="center">Motor
 Controller</text>
-<text x="25.4" y="2.1225" size="1.4224" layer="25" font="vector" ratio="17" rot="SR0" align="center">v2</text>
+<text x="15.24" y="1.4875" size="1.4224" layer="25" font="vector" ratio="17" rot="SR0" align="center">v2</text>
 <wire x1="47.5" y1="50" x2="2.5" y2="50" width="0.4064" layer="20"/>
 <wire x1="2.5" y1="50" x2="0" y2="47.5" width="0.4064" layer="20" curve="90"/>
 <wire x1="0" y1="47.5" x2="0" y2="2.5" width="0.4064" layer="20"/>
@@ -236,6 +234,7 @@ Controller</text>
 <text x="25.4" y="7.2025" size="1.4224" layer="25" font="vector" ratio="17" rot="SR0" align="center">Nano
 328p
 USB</text>
+<text x="45.085" y="4.6625" size="1.016" layer="25" font="vector" ratio="17" rot="SR0" align="center">v1</text>
 </plain>
 <libraries>
 <library name="Seeed-Capacitor-2016">
