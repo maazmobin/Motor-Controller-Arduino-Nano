@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3112,8 +3112,8 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="3V3_GND" library="SparkFun-Connectors" deviceset="M03X2" device="FEMALE" value="FEMALE 2x3"/>
 <part name="MOTOR1" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="MOTOR2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="ENC-1" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
-<part name="ENC-2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="ENC1" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
+<part name="ENC2" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="SERIAL" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="I2C" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="RST" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
@@ -3139,8 +3139,8 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="3V3_GND" gate="G$1" x="6.35" y="-5.08"/>
 <instance part="MOTOR1" gate="G$1" x="104.14" y="83.82" rot="R180"/>
 <instance part="MOTOR2" gate="G$1" x="104.14" y="68.58" rot="R180"/>
-<instance part="ENC-1" gate="G$1" x="104.14" y="53.34" rot="R180"/>
-<instance part="ENC-2" gate="G$1" x="104.14" y="38.1" rot="R180"/>
+<instance part="ENC1" gate="G$1" x="104.14" y="53.34" rot="R180"/>
+<instance part="ENC2" gate="G$1" x="104.14" y="38.1" rot="R180"/>
 <instance part="SERIAL" gate="G$1" x="104.14" y="22.86" rot="R180"/>
 <instance part="I2C" gate="G$1" x="44.45" y="97.79" rot="R270"/>
 <instance part="RST" gate="G$1" x="8.89" y="85.09" rot="R180"/>
@@ -3226,7 +3226,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="D5" class="0">
 <segment>
 <label x="96.52" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-1" gate="G$1" pin="2"/>
+<pinref part="ENC1" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3238,7 +3238,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="D3" class="0">
 <segment>
 <label x="96.52" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-1" gate="G$1" pin="3"/>
+<pinref part="ENC1" gate="G$1" pin="3"/>
 <wire x1="99.06" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3250,7 +3250,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="D4" class="0">
 <segment>
 <label x="96.52" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-2" gate="G$1" pin="2"/>
+<pinref part="ENC2" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3262,7 +3262,7 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="D2" class="0">
 <segment>
 <label x="96.52" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-2" gate="G$1" pin="3"/>
+<pinref part="ENC2" gate="G$1" pin="3"/>
 <wire x1="99.06" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3597,12 +3597,12 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <label x="96.52" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-1" gate="G$1" pin="4"/>
+<pinref part="ENC1" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="96.52" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-2" gate="G$1" pin="4"/>
+<pinref part="ENC2" gate="G$1" pin="4"/>
 <wire x1="99.06" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3656,12 +3656,12 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <label x="96.52" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-2" gate="G$1" pin="1"/>
+<pinref part="ENC2" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="96.52" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ENC-1" gate="G$1" pin="1"/>
+<pinref part="ENC1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="55.88" x2="96.52" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
